@@ -16,11 +16,11 @@ module Types
     end
 
     def books
-      []
+      Book.all
     end
 
     def authors
-      []
+      Author.all
     end
   end
 end
