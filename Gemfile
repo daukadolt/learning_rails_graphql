@@ -40,4 +40,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'graphql'
-gem 'graphql-fragment_cache'
+gem 'graphql-fragment_cache', github: 'daukadolt/graphql-ruby-fragment_cache'
+gem 'redis'

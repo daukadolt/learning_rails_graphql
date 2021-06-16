@@ -1,4 +1,8 @@
 class LearningGraphqlSchema < GraphQL::Schema
+  use GraphQL::Execution::Interpreter
+  use GraphQL::Analysis::AST
+  use GraphQL::FragmentCache
+
   mutation(Types::MutationType)
   query(Types::QueryType)
 
