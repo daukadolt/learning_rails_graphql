@@ -1,6 +1,7 @@
 GIT
   remote: https://github.com/daukadolt/graphql-ruby-fragment_cache.git
-  revision: a6dbd92fd551bc77747932e525df5dfce0a79d28
+  revision: 3dfcdabe16e9e122c89ea331d27cde1f880bc6b3
+  branch: add-#read_multi-for-fragments
   specs:
     graphql-fragment_cache (1.8.0)
       graphql (>= 1.10.8)
@@ -89,7 +90,7 @@ GEM
     diff-lcs (1.4.4)
     equalizer (0.0.11)
     erubi (1.10.0)
-    ffi (1.15.1)
+    ffi (1.15.3)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
     graphql (1.12.12)
@@ -193,7 +194,7 @@ GEM
       mprelude (~> 0.1.0)
       parser (>= 3.0.0)
       procto (~> 0.0.2)
-    websocket-driver (0.7.4)
+    websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
     zeitwerk (2.4.2)
